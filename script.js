@@ -97,21 +97,21 @@ function loadSlideshowImages() {
   
   // Final product images
   const finalImages = [
-    'img/homepage-final.png',
+    'img/homepage-final.PNG',
     'img/profile-final.png',
-    'img/past-order-final.png',
-    'img/payment-1-final.png',
-    'img/payment-2-final.png',
-    'img/checkout-1-final.png',
-    'img/checkout-2-final.png',
-    'img/checkout-3-final.png',
-    'img/checkout-4-final.png',
-    'img/checkout-5-final.png',
-    'img/checkout-6-final.png',
-    'img/checkout-7-final.png',
-    'img/checkout-8-final.png',
-    'img/checkout-9-final.png',
-    'img/checkout-10-final.png'
+    'img/past-order-final.PNG',
+    'img/payment-1-final.PNG',
+    'img/payment-2-final.PNG',
+    'img/checkout-1-final.PNG',
+    'img/checkout-2-final.PNG',
+    'img/checkout-3-final.PNG',
+    'img/checkout-4-final.PNG',
+    'img/checkout-5-final.PNG',
+    'img/checkout-6-final.PNG',
+    'img/checkout-7-final.PNG',
+    'img/checkout-8-final.PNG',
+    'img/checkout-9-final.PNG',
+    'img/checkout-10-final.PNG'
   ];
   
   const finalCaptions = [
