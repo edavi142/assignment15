@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Isaiah Davis | Developer & Project Coordinator</title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container nav-flex">
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#project">Case Study</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <!-- Avatar/pfp section -->
+  <section id="home" class="avatar">
+    <div class="container avatar-grid">
+      <div class="avatar-content">
+        <h1>Bridging <span class="gradient-text">web dev</span> and <span class="gradient-text">project coordination</span></h1>
+        <p>I'm Isaiah Davis, a web developer with a passion for project coordination.</p>
+        <div class="avatar-buttons">
+        </div>
+      </div>
+      <div class="pfp-image">
+        <div class="avatar-placeholder">
+          <!-- Avatar content now handled by CSS background-image -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Study: Charlotte Mobile Order Redesign -->
+  <section id="project">
+    <div class="container">
+      <h2 class="section-title">Case Study: Charlotte Mobile Order Redesign</h2>
+      <div class="case-study">
+        
+        <!-- 1. Defining the Problem -->
+        <div class="case-block">
+          <h3>1. Defining the Problem</h3>
+          <p>Some of the problems we found worth improving were there was no website only a mobile app, so wanted to address that by creating a whole original website. The app also lacked dark mode which ignored user comfort and accessibility needs. After the user ordered food there was no address to where they ordered it so if you're a new student on campus you wouldn't know where to look for your ordered food. Finally we felt the past orders and receipts being separate was redundant for the user and could just be put onto one page.</p>
+        </div>
+
+        <!-- 2. Design Process -->
+        <div class="case-block">
+          <h3>2. Design Process</h3>
+          <p>We first started with paper sketches. Creating our initial sketches and design for our web site and mobile design. I want to highlight to great sketches the redesign of the home page and sketches out the placing order page. Our redesign of the homepage we decided to cut out multiple things such as good afternoon rate order,etc. We wanted to make sure the time of operations and location was still apparent. We also wanted to remove the inbox with night mode, remove the receipts with something which we landed by combining it with the reorders page. Now for the placing order and checking out flow we wanted a general idea of how the pages were going to look and how the user would floor between checking out sections of the design.</p>
+          
+          <!-- Sketch Slideshow -->
+          <div class="slideshow-container" id="sketchSlideshow">
+            <div class="swiper sketch-swiper">
+              <div class="swiper-wrapper" id="sketchWrapper">
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          
+          <p>Then moving to figma, as time moved on we made our prototype more and more high fidelity. At first we sketched the layout in figma with no color at all, but something was still lacking, once we started adding colors and images then it started coming to life. Pages like the past orders and payment would look very similar to the final product.</p>
+          
+          <!-- Figma Slideshow -->
+          <div class="slideshow-container" id="figmaSlideshow">
+            <div class="swiper figma-swiper">
+              <div class="swiper-wrapper" id="figmaWrapper">
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Show Testing and Outcomes -->
+        <div class="case-block">
+          <h3>3. Show Testing and Outcomes</h3>
+          <p>We evaluated the design through user testing with friends and family.The paper prototype user tests included turning on dark mode, ordering food, and viewing the inbox, users struggled to find the inbox due to poor icon affordance. Features such as no sauce editing at checkout or on order confirmation, no clear forward buttons, and no first-time tutorial. The food menu and icons also needed revision. Based on this feedback, we removed the inbox since it didn't align with our vision. We also added ingredient editing, along with clear backward and forward buttons during checkout.</p>
+          <p>The Figma prototype user tests included turning on dark mode, ordering a chicken sandwich, and adding payment info in settings. Users appreciated the dark mode button on the home screen. However, the low contrast, a black icon on a green background, made it difficult to see. One user even checked the hamburger menu looking for it. Our fix was to use a lighter or higher-contrast color. The menu also lacked size options for fries and drinks, so adding those became a priority. On the payment screen, users tried to type, but Figma doesn't support text input. For our final product we fully intend to include text user input fields. Navigation worked well overall. Users easily found payment info in the hamburger menu and navigated the ordering process smoothly, aside from the missing size options. Acting on this feedback, we made the dark mode icon easier to see, added size options for sides and drinks, and implemented input fields on the payment page.</p>
+        </div>
+
+        <!-- 4. Final Product -->
+        <div class="case-block">
+          <h3>4. Final Product</h3>
+          <p>Our finished product has many differences from our prototypes or paper sketches. The navigation bar condenses into a hamburger menu on smaller screens, and we positioned both the navigation and dark mode toggle to the right. We added a footer with copyright and contact information, as well as more restaurants on the past orders page to reduce white space. Hover animations were added to buttons and input fields. When users click the "add card" or "checkout" button, a loading wheel appears followed by a confirmation screen. Additionally, after adding a card on the payment page, users are taken to a saved card page where they can see the card has been saved.</p>
+          
+          <!-- Final Product Slideshow -->
+          <div class="slideshow-container" id="finalSlideshow">
+            <div class="swiper final-swiper">
+              <div class="swiper-wrapper" id="finalWrapper">
+                <!-- Filler images will be inserted by JS -->
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me section -->
+  <section id="about">
+    <div class="container">
+      <div class="about-content">
+        <h3>About Me</h3>
+        <p>I'm a senior at UNC Charlotte, graduating soon with a passion for project management and web development. My academic journey has given me a strong technical foundation, while my hands-on experience has shaped how I lead teams and deliver results.</p>
+        <p>As a teaching assistant for computer science courses at UNC Charlotte, I've developed clear communication and mentorship skills breaking down complex concepts and supporting diverse learners. I've also worked as a Project Coordinator Intern at BOSCH US, where I collaborated across teams, managed timelines, and contributed to real-world product initiatives.</p>
+        <p>Beyond technical and coordination roles, I've earned a Professional Scrum Master I certification, reinforcing my commitment to agile practices, team facilitation, and iterative delivery. I pride myself on strong soft skills adaptability, active listening, and bridging the gap between stakeholders and developers.</p>
+        <p>Currently, I'm seeking opportunities where I can combine my web development knowledge with project management to build products that matter and lead teams that thrive.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <div class="container">
+      <div class="about-content">
+        <h3>Let's Get in Touch</h3>
+        <p>Reach out to me if you're interested in my work or if you wanna network!</p>
+        <div class="contact-links">
+          <a href="https://github.com/edavi142" class="contact-icon" id="githubMock">github / edavi142</a>
+          <a href="https://www.linkedin.com/in/isaiah-davis-008164325/" class="contact-icon" id="linkedinMock">linkedin / isaiah-davis</a>
+          <a href="mailto:edavi142@charlotte.edu" class="contact-icon" id="emailBtn">edavi142@charlotte.edu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <p>© 2026 Isaiah Davis Portfolio</p>
+  </div>
+</footer>
+</body>
+</html>
